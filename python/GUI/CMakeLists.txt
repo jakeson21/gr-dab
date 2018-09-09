@@ -23,6 +23,8 @@ GR_PYTHON_INSTALL(
     FILES
     usrp_dab_rx.py
     usrp_dab_tx.py
+    lime_dab_rx.py
+    lime_dab_tx.py
     user_frontend.py
     DESTINATION ${GR_PYTHON_DIR}/dab
     COMPONENT "dab_python"
